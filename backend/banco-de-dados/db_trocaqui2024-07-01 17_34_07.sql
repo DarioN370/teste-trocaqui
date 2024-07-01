@@ -26,13 +26,16 @@ CREATE TABLE IF NOT EXISTS `tb_usuario` (
   `nome` varchar(50) NOT NULL,
   `senha` int(6) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
--- Copiando dados para a tabela db_trocaqui.tb_usuario: ~3 rows (aproximadamente)
+-- Copiando dados para a tabela db_trocaqui.tb_usuario: ~6 rows (aproximadamente)
 INSERT INTO `tb_usuario` (`id`, `email`, `nome`, `senha`) VALUES
 	(1, 'teste1@gmail.com', 'nome1teste', 111111),
 	(2, 'teste2@gmail.com', 'nome2teste', 222222),
-	(3, 'netobis2015@gmail.com', 'Dario 006', 666666);
+	(3, 'netobis2015@gmail.com', 'Dario 006', 666666),
+	(4, 'teste1@gmail.com', '', 111111),
+	(5, 'teste1@gmail.com', '', 111111),
+	(6, 'teste1@gmail.com', '', 111111);
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
