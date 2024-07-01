@@ -24,13 +24,13 @@
             
             <div class="btn-container">
                 <div class="form-group">
-                    <button class="btn-login" type="submit">Login</button>
+                    <button class="btn-login" type="submit">Entrar</button>
                 </div>
+
                 <div class="form-group">
                     <a href="index.php"><button class="btn-voltar" type="button">Voltar</button></a>
                 </div>
             </div>
-            
         </form>
     </div>
     
