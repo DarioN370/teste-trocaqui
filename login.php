@@ -9,7 +9,7 @@
 <body>
     <div class="container">
         <h2>Login teu</h2>
-        <form class="container-form" action="processa-cadastro.php" method="POST">
+        <form class="container-form" action="valida-login.php" method="POST">
             <div class="container-inputs">
                 <div class="form-group">
                     <label for="email">E-mail:</label>
