@@ -16,20 +16,15 @@ try{
 
     $dados = $stmt->fetchAll((PDO::FETCH_ASSOC)); //senha dando erro no fetch e fetchAll
 
-
     if($dados[0]['total'] == 0){
         // pagina de erro 
         header('Location: erro.php');
     }else{
-        // pagina de sucesso
+        // pagina interna do site de sucesso
     header('Location: pagina-interna.php');
     }
 
     }catch(PDOException $err){
         echo "Erro".$err->getMessage();
     }
-
-
-
-
 ?>
