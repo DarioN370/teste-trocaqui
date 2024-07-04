@@ -4,8 +4,9 @@ try{
 
     include 'conexao.php';
 
-    $email = "teste1@gmail.com";
-    $senha = "111111";
+    $email = $_POST ['email'];
+    $senha = $_POST ['senha'];
+
 
 
     $sql = "SELECT COUNT(email) as total FROM tb_usuario WHERE email='$email' AND BINARY senha='$senha'";
