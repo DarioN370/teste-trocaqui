@@ -15,7 +15,7 @@ try{
 
     $stmt->execute();
 
-    $dados = $stmt->fetchAll((PDO::FETCH_ASSOC)); //senha dando erro no fetch e fetchAll
+    $dados = $stmt->fetchAll((PDO::FETCH_ASSOC)); 
 
     if($dados[0]['total'] == 0){
         // pagina de erro 
